@@ -7,7 +7,7 @@ import { ArqueiroMago } from "./modules/arqueiro-mago.js";
 const magoAlan = new Mago("Alanzoka", 4, "Fogo", 4, 1);
 const magaRethe = new Mago("Maethe", 6, "Gelo", 5, 7);
 const arquEllie = new Arqueiro("Ellie", 7, 8);
-const arqueArmago = new ArqueiroMago("Boquinha de Escoto", 9, 4, "Ar", 10, 9);
+const arqueArmago = new ArqueiroMago("Boquinha de Esgoto", 9, 4, "Ar", 10, 9);
 
 const personagens = [magoAlan, magaRethe, arquEllie, arqueArmago];
 
