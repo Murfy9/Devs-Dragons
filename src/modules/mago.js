@@ -4,7 +4,9 @@ export class Mago extends Personagem {
   elementoMagico;
   levelMagico;
   inteligencia;
-  tipo = "Mago";
+  static tipo = "Mago";
+  static descricao =
+    "Um mago nunca se atrasa, nem se adianta, ele chega exatamente quando pretende chegar!";
 
   constructor(nome, level, elementoMagico, levelMagico, inteligencia) {
     super(nome, level);
