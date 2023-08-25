@@ -6,8 +6,8 @@ export class Arqueiro extends Personagem {
     "A flecha deixa de pertencer ao arqueiro, quando abandona o arco!";
   destreza;
 
-  constructor(nome, level, destreza) {
-    super(nome, level);
+  constructor(nome, destreza) {
+    super(nome);
     this.destreza = destreza;
   }
 

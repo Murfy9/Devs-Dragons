@@ -8,8 +8,8 @@ export class Mago extends Personagem {
   static descricao =
     "Um mago nunca se atrasa, nem se adianta, ele chega exatamente quando pretende chegar!";
 
-  constructor(nome, level, elementoMagico, levelMagico, inteligencia) {
-    super(nome, level);
+  constructor(nome, elementoMagico, levelMagico, inteligencia) {
+    super(nome);
     this.elementoMagico = elementoMagico;
     this.levelMagico = levelMagico;
     this.inteligencia = inteligencia;
